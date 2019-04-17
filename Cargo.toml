@@ -1,0 +1,15 @@
+[package]
+name = "beemail"
+version = "0.1.0"
+authors = ["Zach Sherman <zachsherman@uchicago.edu>"]
+edition = "2018"
+
+[dependencies]
+imap = "1.0.0"
+base64 = "0.10.1"
+native-tls = "0.2.2"
+dotenv = "0.13.0"
+oauth2 = { git = "https://github.com/ramosbugs/oauth2-rs.git" }
+regex = "1.1.6"
+rand = "0.6.5"
+url = "1.7.2"
